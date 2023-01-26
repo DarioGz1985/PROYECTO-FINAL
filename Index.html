@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="G:\PROYECTO FINAL\IMG\Khaby1.png" type="image/x-icon">
+    
+    <title>CV</title>
+   
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- encabezado -->
+    <header>
+        <h1>KHABY LAME</h1>
+        <nav id="nav">
+            <a href="#inicio" onclick="seleccionar()">Inicio</a>
+            <a href="#sobremi" onclick="seleccionar()" >Sobre Mí</a>
+            <a href="#datospersonales" onclick="seleccionar()">Datos Personales</a>
+             <a href="#curriculum" onclick="seleccionar()">Currículum</a>
+             <a href="#contacto" onclick="seleccionar()">Contacto</a>
+        </nav>
+    <!-- Menu hamburguesa responsive -->
+       <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+       </div>
+    </header>
+
+    <!-- sección Inicio -->
+        <section id="inicio">          
+            <div class="fila">
+                <div class="col">
+                       <p>Freelance</p>
+                       <h1>Diseñador Web</h1>
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-square-facebook gradient-text"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter gradient-text"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram gradient-text"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin gradient-text"></i></a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/foto.png" alt="Foto de perfil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- sección Sobre Mí -->
+        <section id="sobremi"> 
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                     <h3>Sobre Mí</h2>
+                     <h2>Soy el del Meme</h2>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil deserunt exercitationem earum laboriosam a totam. Optio, assumenda.</p>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="img/Khaby2.jpg" alt="Foto de Kabhy con Esmoquin">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- seccion video -->
+        <section id="video">    
+            
+           <iframe class="estadode-video" src="https://www.youtube.com/embed/YNGWsZcx7rU?mute=1&autoplay=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+       
+        </section>
+
+    <!-- sección Datos personales -->
+    <section id="datospersonales">
+        <div class="fila">
+            <div class="caja">               
+                   <h3>Datos Personales</h3> 
+                       <p>Nombre:<span class="txtEspecial">Khaby Lame</span></p>
+                       <p> DNI:<span class="txtEspecial">7654321</span> </p> 
+                       <p> Nacimiento:<span class="txtEspecial">00/00/00</span></p>
+                       <p> Ciudad/Pais:<span class="txtEspecial">La Plata; Argentina</span></p>
+                       <p> Direccion:<span class="txtEspecial">78910</span> </p>
+                       <p>Telefono:<span class="txtEspecial">123456</span> </p>            
+                       <p> Mail:<span class="txtEspecial">khabyl@hotmail.com</span></p>               
+            </div>  
+            <div class="caja">
+                   <h3>Habilidades</h3> 
+                       <p>Idiomas:<span class="txtEspecial">Ingles, Frances</span></p>
+                       <p> Lenguajes:<span class="txtEspecial">Java,Javascript</span> </p> 
+                       <p> Software:<span class="txtEspecial">Word,Photoshop,Corel</span></p>
+                       <p> Intereses:<span class="txtEspecial">Musica,Deporte,Cocina</span></p>
+                       <p> Hobbies:<span class="txtEspecial">Piano,Guitarra,Leer</span> </p>
+                       <p>Licencia de conducir:<span class="txtEspecial">Profesional</span> </p>
+                       <p> Disponibilidad:<span class="txtEspecial">Fulltime</span></p>                         
+            </div>
+        </div>           
+    </section>         
+
+    <!-- sección Curriculum -->
+    <section id="curriculum">
+      <h3>Currículum</h3>
+        <div class="fila">
+                <div class="col">
+                    <p class="contenido-cv">Estudios</p>
+                    <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h2>
+                </div>
+            <div class="col">
+                <div class="info">
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Instituto</h4>
+                            <p>Diseño Gráfico (años)</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Instituto</h4>
+                            <p>Diseño Gráfico (años)</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Instituto</h4>
+                            <p>Diseño Gráfico (años)</p>
+                        </div>  
+                </div>   
+            </div>
+        </div>            
+    </section>
+
+    <section id="curriculum">
+        <div class="fila">
+            <div class="col">
+                <p class="contenido-cv">Experiencia</p>
+                <h2>Amplia trayectoria en el área de <span class="txtEspecial">Diseño</span></h2>
+            </div>
+
+            <div class="col">
+                <div class="info">
+                    <div class="item">
+                        <span class="circulo"></span>
+                        <h4>Nike</h4>
+                        <p>Diseñador Gráfico (2011-2013)</p>
+                    </div>
+                    <div class="item">
+                        <span class="circulo"></span>
+                        <h4>Adidas</h4>
+                        <p>Diseñador Gráfico (2014-2016)</p>
+                    </div>
+                    <div class="item">
+                        <span class="circulo"></span>
+                        <h4>Marvel comics</h4>
+                        <p>Diseñador Gráfico (2017-2019)</p>
+                    </div>
+                    <div class="item">
+                        <span class="circulo"></span>
+                        <h4>DC comics</h4>
+                        <p>Diseñador Gráfico (2020-2022)</p>
+                    </div>  
+                </div>
+
+            </div>
+        </div>      
+    </section>
+
+    <!-- Contacto-->
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <form action="Formulario">
+            <div class="entrada">
+                <input id="text"> 
+                <label for="text">Nombre</label>
+            </div>
+            <div class="entrada">
+                <input id="text">
+                <label for="text">Correo</label>
+            </div>
+            <div class="entrada">
+                <textarea id="text" cols="30" rows="5"></textarea>
+                <label for="text">Tema</label>
+            </div>
+            
+            <button>Enviar<i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </form>
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+    
+</html>

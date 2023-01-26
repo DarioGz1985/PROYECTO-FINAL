@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alice', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#e8e9eb;
+    color: #fff;
+    padding: 0 10px;
+}
+body section{ 
+    border-radius: 10px;
+    background-color: #273680de;
+    border: 1px solid black; 
+    padding: 40px;
+    margin: 30px 0;
+    overflow: hidden;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.fila{
+    display: flex;
+}
+.info{
+    padding: 40px ;
+}
+.col{
+    width: 50%;
+}
+
+/* seccion cabecera */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #273680de; 
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 30px 0;   
+}
+h1{
+    color:#af762f;    
+}
+header nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin-left: 20px;
+}
+header nav a:hover{
+    color:#af762f;  
+}
+.nav-responsive{
+    display: none;
+    font-size: 25px;
+    color: #a8a8a8;
+ }
+
+/* SECCIÓN INICIO*/
+#inicio .contenedor-img{
+    max-width: 170px;
+    width: fit-content;
+    margin: auto;   
+}
+.contenedor-img img{
+    width: 100%;
+}
+#inicio p{
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#inicio h1{
+    font-size: 40px;
+    margin: 10px 0;
+}
+ #contacto .redes{
+    text-align: center;
+    margin-bottom: 30px;  
+}
+ .redes a{
+    color: #af752f95; 
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    margin: 0 20px;   
+}
+
+/* sección sobre mi */
+#sobremi{  
+    padding: 0px; 
+}
+.col h3{
+    color:#af762f;  
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.col h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.col p{
+    font-size: 15px;
+}
+.contenedor-img{
+    width: 100%;   
+}
+.contenedor-img img{
+    width: 100%;
+    display: block;
+}
+
+/* seccion video */
+#video{ 
+    padding: 5px;
+    width: 100%;
+    margin: auto;   
+}
+.estadode-video{
+    width: 100%;
+    height: 210px;
+    border-radius: 10px;
+}
+
+/* seccion Datos Personales */
+#datospersonales{
+    display: flex;
+    justify-content: center;
+    padding: 2px; 
+    background: transparent;
+    border: transparent 
+    
+}
+.caja{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.281); 
+    background: #273680de;
+    width: 445px;
+    height: 350px;
+    margin: 5px;
+    display: inline-block; 
+    overflow: hidden;
+}
+#datospersonales h3{
+    color:#af762f;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+#datospersonales p{
+    color:#af762f;
+    font-weight: normal;
+    font-size:medium;
+    margin: 20px;
+    letter-spacing: normal;
+    text-align: center; 
+} 
+#datospersonales span{
+    color: #ffffff ;
+    font-weight: normal;
+    font-size:medium;
+    margin: auto;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+/* sección curriculum */
+#curriculum  h3{
+    color:#af762f;  
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.contenido-cv{
+    color:#af762f;  
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#curriculum h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 40px;
+}
+.txtEspecial{
+    color:#af762f;  
+}
+#curriculum .info{
+    border-left: 2px solid #fff;
+    position: relative;   
+}
+.item{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.circulo{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    left:-6px;
+    margin-top: 6px;
+}
+
+/* sección contacto */
+#contacto h3{
+    color:#af762f;  
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+#contacto form{
+    max-width: 500px;
+    margin: auto;
+    background-color:#273680a1;
+    padding: 20px;
+    border-radius: 10px;   
+}
+.entrada{
+    margin-bottom:30px;
+}
+#contacto label{
+    display: block;
+}
+#contacto input{
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #af762f;  
+    width: 100%;
+    padding: 7px 0;
+    outline: none;
+    color:#af762f;  
+}
+#contacto textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #af762f;  
+    width: 100%;
+    height: 100px;
+    outline: none;
+    color:#af762f;  
+    padding: 7px 0;
+}
+
+/* Boton Enviar-CV */
+#contacto button{
+    background: linear-gradient(45deg, #11258ace, #ffffff6d);
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 10px 22px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+#contacto .overlay{
+    border-radius: 20px;
+    border:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:#af752fc6;  
+    z-index: -1;
+    transition: 1s;
+}
+#contacto button:hover .overlay{
+    width: 100%;
+}
+
+/* sección responsive */
+@media only screen and (max-width: 700px) {
+    header  nav{
+        position: initial;
+        display: none;
+        transform: translate(0);
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position:absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #252A2E;
+        z-index: 99;
+    }
+    nav.responsive a{
+        display: block;
+        width: fit-content;
+        margin: 10px auto;
+        font-size: 30px;
+    }
+    #inicio .fila{
+        display: block;
+        text-align: center;
+    }
+    #inicio .col{
+        width: 100%;
+    }
+    #sobremi .fila{
+        display: block;
+        text-align:center;
+    }
+    #datospersonales .fila{
+        display: block;
+        text-align:center;
+    }
+    #sobremi .col{
+        width: 100%;
+    }
+    #curriculum .fila{
+        display: block;
+        text-align: center;
+    }
+    #curriculum .col{
+        width: 100%;
+    }
+    #curriculum .info{
+        text-align: left;
+    }
+}
